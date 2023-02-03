@@ -1,11 +1,11 @@
 const Model = require("./Model.js")
 module.exports = class CartItem extends Model {
     struct = {
-        id_user: {
+        userId: {
             type: "number",
             default: 0
         },
-        id_good: {
+        goodId: {
             type: "number",
             default: 0
         },

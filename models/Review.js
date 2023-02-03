@@ -1,10 +1,10 @@
 const Model = require("./Model.js")
 module.exports = class Review extends Model {
     struct = {
-        id_user: {
+        userId: {
             type: "number",
         },
-        id_good: {
+        goodId: {
             type: "number",
         },
         rating: {

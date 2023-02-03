@@ -15,10 +15,10 @@ const generateTokens = async (user) => {
             { expiresIn: "30d" }
         );
 
-        const userToken = UserToken.where("userId", user._id);
+        const userToken = UserToken.where("userId", user.id);
         if (!userToken.error) UserToken.delete(userToken.id);
 
-        UserToken.create({ userId: user._id, token: refreshToken })
+        UserToken.create({ userId: user.id, token: refreshToken })
         return Promise.resolve({ accessToken, refreshToken });
     } catch (err) {
         return Promise.reject(err);
