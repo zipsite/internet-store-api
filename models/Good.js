@@ -1,15 +1,19 @@
 const Model = require("./Model.js")
-module.exports = class Book extends Model {
+module.exports = class Good extends Model {
     struct = {
         name: {
             type: "string",
             default: ""
         },
-        author: {
+        description: {
             type: "string",
             default: ""
         },
-        year: {
+        cost: {
+            type: "number",
+            default: 0
+        },
+        pic: {
             type: "string",
             default: ""
         }

@@ -1,1 +1,16 @@
-[{"name":"ray","email":"ray@ray","role":"admin","password":"$2b$10$w5WjReBNtSMZTC.DOL79M.NxlqSzl3LUMk/x94U8/G/iP50ooQXHy","id":1},{"name":"mono","role":"user","email":"mono@mono","password":"$2b$10$Cv4m7NzJ6w7bh.xshhxhv.Xh/42nQKFOEoA8lw15t/.eHaOFIZGMy","id":2}]
+[
+    {
+        "name": "ray",
+        "email": "ray@ray",
+        "role": "admin",
+        "password": "$2b$10$w5WjReBNtSMZTC.DOL79M.NxlqSzl3LUMk/x94U8/G/iP50ooQXHy",
+        "id": 1
+    },
+    {
+        "name": "mono",
+        "role": "user",
+        "email": "mono@mono",
+        "password": "$2b$10$Cv4m7NzJ6w7bh.xshhxhv.Xh/42nQKFOEoA8lw15t/.eHaOFIZGMy",
+        "id": 2
+    }
+]

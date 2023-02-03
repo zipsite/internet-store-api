@@ -7,9 +7,12 @@ module.exports = class User extends Model {
         email: {
             type: "string"
         },
+        phone: {
+            type: "string"
+        },
         role: {
             type: "string",
-            enum: ["user", "admin"]
+            enum: ["buyer", "manager", "seller", "admin"]
         },
         password: {
             type: "string"
