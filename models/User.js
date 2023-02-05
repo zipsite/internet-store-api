@@ -16,6 +16,9 @@ module.exports = class User extends Model {
         },
         password: {
             type: "string"
+        },
+        deleteIS: {
+            type: "string"
         }
     }
 }

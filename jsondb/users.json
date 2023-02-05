@@ -1,16 +1,1 @@
-[
-    {
-        "name": "ray",
-        "email": "ray@ray",
-        "role": "admin",
-        "password": "$2b$10$w5WjReBNtSMZTC.DOL79M.NxlqSzl3LUMk/x94U8/G/iP50ooQXHy",
-        "id": 1
-    },
-    {
-        "name": "mono",
-        "role": "user",
-        "email": "mono@mono",
-        "password": "$2b$10$Cv4m7NzJ6w7bh.xshhxhv.Xh/42nQKFOEoA8lw15t/.eHaOFIZGMy",
-        "id": 2
-    }
-]
+[{"name":"ray ray","email":"ray@ray","phone":"88005553535","role":"admin","password":"$2b$10$uGOycD/yaMVUfWv.IwJtiOBkTVGLUXsBTM1U6kOs/Yf4yNCeXbdI2","id":1}]

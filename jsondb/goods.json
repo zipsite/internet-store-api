@@ -1,9 +1,1 @@
-[
-    {
-        "id": 263723,
-        "cost": 600,
-        "pic": "https://picstore.com/?748237892",
-        "name": "Чайник",
-        "description": "Очень, очень хороший чайник)))"
-    }
-]
+[{"name":"Чайник","description":"Очень хороший чайник","cost":500,"pic":"urlpic","id":1},{"name":"Сковородка тефаль","description":"Не обожгись","cost":300,"pic":"urlpic","id":2}]

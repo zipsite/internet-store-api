@@ -14,5 +14,6 @@ for(let i = 0; i < 10; i++) {
         name: faker.music.songName(),
         author: faker.name.fullName(),
         year: faker.date.past().getFullYear()
-    })
+    });
+    
 }

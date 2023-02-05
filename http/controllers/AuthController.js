@@ -19,7 +19,13 @@ module.exports = class AuthController {
             const salt = await bcrypt.genSalt(Number(process.env.SALT));
             const hashPassword = await bcrypt.hash(req.body.password, salt);
 
-            let result = User.create({ ...req.body, password: hashPassword });
+            let result = User.create({
+                name: req.body.name,
+                email: req.body.email,
+                phone: req.body.phone,
+                role: "buyer",
+                password: hashPassword
+            });
             if (result.error == true) {
                 return res
                 .status(400)

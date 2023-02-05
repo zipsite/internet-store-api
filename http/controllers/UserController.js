@@ -1,4 +1,4 @@
-const Book = new (require("../../models/Book.js"))();
+const User = new (require("../../models/User.js"))();
 module.exports = class UserController {
     index(req, res) {
     }
